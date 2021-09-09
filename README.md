@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⚽ React Laliga
-An example of rendering large lists without any performance issues in [React.js](https://github.com/facebook/react) using [react-window](https://github.com/bvaughn/react-window).
+An example of rendering large lists without any performance issues in [React](https://github.com/facebook/react) apps using [react-window](https://github.com/bvaughn/react-window).
 <br>
 <br>
 <br>
