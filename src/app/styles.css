@@ -1,0 +1,40 @@
+html {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+body {
+	margin: 0;
+	white-space: nowrap;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.page-title {
+	font-size: 40px;
+	text-align: center;
+	height: 50px;
+	margin: 40px 0 50px;
+}
+
+.loading {
+	text-align: center;
+	margin: 30px;
+	font-size: 30px;
+	display: block;
+	color: #b8b8b8;
+}
+
+@media only screen and (max-width: 750px) {
+	.page-title {
+		height: 40px;
+		font-size: 18px;
+		margin: 20px 0 10px;
+	}
+}
+

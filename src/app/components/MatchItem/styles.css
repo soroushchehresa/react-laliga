@@ -1,0 +1,85 @@
+.match-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.match-item-even > .match-wrapper {
+	background-image: linear-gradient(135deg, #ebc0fd 0%, #d9ded8 100%);
+}
+
+.match-item-odd > .match-wrapper {
+	background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+}
+
+.match-wrapper {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 10px 25px -10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	margin-bottom: 50px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.title-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 5px 0;
+	width: 100%;
+	padding: 10px 15px;
+	box-sizing: border-box;
+}
+
+.item-title {
+	font-size: 18px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0;
+}
+
+.team-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 94%;
+}
+
+.team-name {
+	font-size: 20px;
+	margin: 10px 0;
+	font-weight: bold;
+	color: #444;
+}
+
+.team-score {
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 20px;
+	color: #444;
+}
+
+@media only screen and (max-width: 750px) {
+	.match-wrapper {
+		width: 90%;
+	}
+	
+	.item-title {
+		font-size: 14px;
+	}
+	
+	.team-name {
+		font-size: 15px;
+	}
+	
+	.team-score {
+		font-size: 20px;
+	}
+}
