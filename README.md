@@ -7,5 +7,5 @@ An example of rendering large lists without any performance issues in [React](ht
 <br>
 **[Online Demo](https://react-laliga.netlify.app)**
 <br>
-<img width="800px" src="https://raw.githubusercontent.com/soroushchehresa/react-laliga/master/demo.gif" />
+<img width="100%" src="https://raw.githubusercontent.com/soroushchehresa/react-laliga/master/demo.gif" />
 </div>
